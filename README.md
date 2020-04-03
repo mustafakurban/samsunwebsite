@@ -23,7 +23,7 @@ Memleketim olan samsunu tanıtmak,gezilebilecek mekanları göstermek ve kültü
 # Kullanmayı planladığım sayfa tasarımı
 * Elimden geldiğince sade ve minimal bir tasarım yapmayı planlıyorum.
 * Tasarımım da ayrıntıları seyreltip elimdeki ayrıntıları mükemmelleştirmeye çalışacağım.
-* Tema olarak Sang Han ArtStation tarafından yayınlanan bir temayı baz alarak ilerleyeceğim.
+
 
 
 
