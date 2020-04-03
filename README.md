@@ -8,7 +8,7 @@ Memleketim olan samsunu tanıtmak,gezilebilecek mekanları göstermek ve kültü
 * HTML
 * CSS
 * JavaScript
-* İhtiyaca bağlo olarak farklı framework ler kullanılabilir.
+* İhtiyaca bağlı olarak farklı framework ler kullanılabilir.
 
 # Taslak içerik
 * Siteye  giriş yapmak için kullanıcı adı ve şifre isteyen bir panel kullanılacak.
