@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form verileri</title>
+</head>
+
+<body>
+
+   
+    
+   
+
+    <script type="text/javascript">
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+        
+	    
+       
+        var sn = getParameterByName('name');
+        var ss = getParameterByName('email');
+        var sl = getParameterByName('surname');
+        var sc = getParameterByName('accept');
+        var sv = getParameterByName('message');
+        var sr = getParameterByName('anket');
+       
+		
+		
+        document.write("isim : ",sn,"<br/>" );
+        document.write("soyisim : \n",sl,"<br/>");
+        document.write("email : \n",ss,"<br/>");
+        document.write("Kullanıcının mesajı : \n",sv,"<br/>")
+        document.write("Ankete verdiği cevap : \n", sr,"<br/>")
+        if(sc == "on")
+        {
+            document.write("Samsun haberlerini mail at : İşaretli");
+        }
+        else
+        {
+            document.write("Samsun haberlerini mail at : İşaretli değil");
+        }
+    
+    </script>
+     
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+
+
+</body>
+
+</html>

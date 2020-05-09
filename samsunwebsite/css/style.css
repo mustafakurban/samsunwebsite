@@ -1,0 +1,7 @@
+div.container
+{
+    position: static;
+}
+.service-slide .sppb-carousel .sppb-carousel-item-inner:before {
+    pointer-events: none;
+  }
